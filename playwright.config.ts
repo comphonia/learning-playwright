@@ -5,7 +5,7 @@ export default defineConfig({
   reporter: "html",
   // timeout: 5000,
   use: {
-    baseURL: "http://localhost:3000",
+    baseURL: "http://localhost:3000/",
     screenshot: "only-on-failure",
     headless: false,
     launchOptions: { slowMo: 1000 },
