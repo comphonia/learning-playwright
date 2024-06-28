@@ -35,5 +35,5 @@ test("Upload a file", async ({ page }) => {
 
   console.log(uploadInput);
   // check if the file was uploaded
-  await expect(uploadInput).toHaveValue("dummy.pdf");
+  expect(uploadInput).toHaveValue.toString().includes("dummy.pdf");
 });

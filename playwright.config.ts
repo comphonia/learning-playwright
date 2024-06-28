@@ -4,6 +4,7 @@ export default defineConfig({
   testDir: "./tests",
   reporter: "html",
   // timeout: 5000,
+  fullyParallel: true,
   use: {
     baseURL: "http://localhost:3000/",
     screenshot: "only-on-failure",
